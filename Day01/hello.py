@@ -1,1 +1,15 @@
 print("Hello PQC!")
+name = "Soda"
+print(name)
+age = 20
+print(age)
+height = 1.75
+print(height)
+a = 3
+b = 4
+print(a + b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a ** b)
+print(a % b)

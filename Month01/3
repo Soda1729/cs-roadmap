@@ -34,3 +34,33 @@ def factorial(x):
     return factorial
 name = input("any: ")
 print(factorial(int(name)))
+
+numbers = [1, 4, 3, 47, 5]
+numbers.append(8)
+numbers.insert(0,9)
+numbers.pop(6)
+numbers.remove(9)
+numbers.sort()
+numbers.reverse()
+print(numbers)
+
+def big(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+print(big(23,6))
+
+def p(a,n):
+    re = 1
+    for i in range(n):
+        re = re * a
+    return re
+print(p(2,3))
+
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+if x > y:
+    print(x)
+else:
+    print(y)

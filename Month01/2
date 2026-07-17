@@ -1,0 +1,105 @@
+from turtle import width
+
+
+number = 10
+if number >= 5:
+    print("haha")
+else:
+    print("hehe")
+x = 10
+if x % 2 == 0:
+    print("x is even")
+else:
+    print("x is odd")
+
+for i in range(1,21):
+    print(i)
+
+for i in range(1,21):
+    if i % 2 == 0:
+        print(i)
+
+for i in range(1,21):
+    if i % 2 == 1:
+        print(i)
+
+for i in range(1,11):
+    print(i ** 2)
+
+length = 5
+print(type(length))
+
+x = 10
+print(x > 5 and x < 15)
+
+def add(a, b):
+    return a + b
+print(add(3, 4))
+print(add(10, 20))
+
+def num(a):
+    if a % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+print(num(3))
+print(num(4))
+
+def prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+print(prime(3281))
+print(prime(85473))
+
+def ber(n):
+    return n / 2
+print(ber(10))
+print(ber(15))
+
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+
+age = int(input("Enter your age: "))
+print("You are ", age, " years old.")
+
+def radius(r):
+    return 3.14 * r * 2
+print(radius(5))
+
+def point(x, y):
+    return x * y
+print("area = ", point(3, 4))
+
+for juck in range(10):
+    print(juck)
+
+numbers = []
+numbers.append(1)
+numbers.append(2)
+print(numbers)
+print(len(numbers))
+
+x = 0
+for i in range(1, 101):
+    x = x + i
+print(x)
+
+def prime(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+for n in range(1, 101):
+    if prime(n):
+        print(n)
+
+
+
+
+        

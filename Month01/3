@@ -1,0 +1,36 @@
+def hi(x):
+    return x * 2
+print("Hello, World!", hi(5))
+
+def number(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+p = number(10, 20)
+print(p)
+
+def prime(x):
+    if x <= 1:
+        return False
+    if x == 2:
+        return True
+    for i in range(2,x):
+        if x % i == 0:
+            return False
+    return True
+name = input("number: ")
+print(prime(int(name)))
+
+def hello():
+    x = 5
+    print(x)
+"""I can write anything here!"""
+
+def factorial(x):
+    factorial = 1
+    for i in range(1, x+1):
+        factorial = factorial * i
+    return factorial
+name = input("any: ")
+print(factorial(int(name)))

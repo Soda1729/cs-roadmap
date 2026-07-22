@@ -1,0 +1,42 @@
+a, b = 252, 105
+while b != 0:
+    a, b = b, a%b
+print(a)
+
+
+for i in range(21):
+    print(i, "-", i%5)
+
+
+def uk(a,n):
+ result = 1
+ while n > 0:
+    if n%2 == 1:
+        result *= a
+    
+    a *= a
+    n //= 2
+ return result
+print(uk(2, 10))
+
+        
+def bea(a, n, m):
+   result = 1
+   while n > 0:
+    if n%2 == 1:
+      result = (result*a) % m
+
+    a = (a*a) % m
+    n //= 2
+   return result
+print(bea(3, 13, 17))
+
+print(pow(3, 13, 17))
+
+def g(a, b):
+   while b != 0:
+      a, b = b, a%b
+
+   return (a)
+print(g(12, 18))
+
